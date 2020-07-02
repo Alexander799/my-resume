@@ -131,4 +131,146 @@ body {
 }
 
 
+/* start about-me-container*/
+
+.about-me-container {
+    margin-bottom: 65px;
+    max-width: 415px;
+}
+
+.about-me-container h2 {
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.about-me-container h1 {
+    margin-bottom: 24px;
+    min-width: 341px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.about-me-container p {
+    color: #595959;
+    font-weight: 400;
+}
+
+
+/* end about-me-container*/
+
+
+/*start projects-container*/
+
+.projects-container {
+    margin-bottom: 50px;
+}
+
+.projects-container h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.projects-container li {
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.projects-container a {
+    text-decoration: none;
+    color: #595959;
+}
+
+.points {
+    font-weight: 400;
+}
+
+.tech-units {
+    font-weight: 400;
+    color: #595959;
+}
+
+.project-link {
+    font-weight: 400;
+}
+
+
+/*end projects-container*/
+
+
+/*start experience-container*/
+
+.experience-container {
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.experience-container h3 {
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.experience-container h4 {
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.company {
+    color: #ff6b08;
+}
+
+.work-period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.separator {
+    color: #000000;
+}
+
+.experience-container li {
+    margin-left: 14px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.expience {
+    margin-bottom: 25px;
+}
+
+
+/*end experience-container*/
+
+
+/* start education-container*/
+
+.education-container h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.education-container h4 {
+    margin-bottom: 8px;
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.education-container h5 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* end education-container*/
+
+
 /*end of main content block*/
