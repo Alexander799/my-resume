@@ -203,7 +203,29 @@ body {
 /*end projects-container*/
 
 
-/*start experience-container*/
+/*start skills-level-container*/
+
+.skills-level-container {
+    max-width: 480px;
+    margin-bottom: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.skills-level-container ol li {
+    list-style-position: inside;
+}
+
+.skills-level-container ol li progress {
+    width: 100px;
+    height: 20px;
+}
+
+
+/*end skills-level-container*/
+
+
+/*start experience-container
 
 .experience-container {
     max-width: 480px;
@@ -251,7 +273,7 @@ body {
 }
 
 
-/*end experience-container*/
+end experience-container*/
 
 
 /* start education-container*/
