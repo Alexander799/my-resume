@@ -1,0 +1,192 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    body {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 24px;
+    }
+    
+    .resume {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #f5f7fa;
+    }
+    
+    .resume__resume-body {
+        box-shadow: 5px 9px 20px 0px rgba(0, 0, 0, 0.15);
+        display: flex;
+    }
+    /* START SIDE BLOCK */
+    
+    .side-block {
+        max-width: 370px;
+        color: #ffffff;
+        background-color: #1e2939;
+    }
+    
+    .photo img {
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+    .side-block__content {
+        padding: 0 40px 40px;
+    }
+    
+    .contacs__header,
+    .skills__header {
+        margin: 20px 0;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .contacs__badge {
+        margin-right: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+    
+    .contacs__value a:link {
+        text-decoration: none;
+        opacity: 0.5;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+    }
+    
+    .skills__item {
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+    
+    .skills__item::before {
+        color: #ff6b08;
+        content: "\2022";
+        margin-right: 0.6em;
+        font-weight: 700;
+    }
+    /* END SIDE BLOCK */
+    /* START MAIN BLOCK */
+    
+    .main-block {
+        padding: 100px 190px 100px 90px;
+        width: 100%;
+        color: #000000;
+        background-color: #ffffff;
+    }
+    
+    .about__specialty {
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+    
+    .about__my-name {
+        font-size: 45px;
+        line-height: 89px;
+        font-weight: 700;
+    }
+    
+    .about__about-me {
+        margin-bottom: 60px;
+        max-width: 415px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: #595959;
+    }
+    
+    .projects__header {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    
+    .projects__list {
+        margin-bottom: 50px;
+    }
+    
+    .projects__item {
+        margin-left: 20px;
+        list-style-type: decimal;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #595959;
+    }
+    
+    .projects__item::marker {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+    
+    .projects__item a {
+        text-decoration: none;
+        color: #595959;
+    }
+    
+    .projects__item a:hover {
+        text-decoration: underline;
+    }
+    
+    .work-experience__header,
+    .block-education__header {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .experience__header {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+    }
+    
+    .experience__post {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #595959;
+    }
+    
+    .experience__time-period {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        color: #a8a8a8;
+    }
+    /* END MAIN BLOCK */
+    /* MEDIA FOR PRINT */
+    
+    @media print {
+        * {
+            -webkit-print-color-adjust: exact;
+        }
+        .resume {
+            padding: 0;
+        }
+        .resume__resume-body {
+            box-shadow: none;
+        }
+        .main-block {
+            padding: 20px;
+        }
+        .projects__item a::after {
+            font-weight: 700;
+            content: " <"attr(href)">";
+        }
+        .side-block__content {
+            padding: 10px;
+        }
+    }
+    /* MEDIA FOR PRINT */
