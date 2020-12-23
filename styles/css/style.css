@@ -46,19 +46,6 @@ body {
     font-weight: 700;
 }
 
-@media (max-width: 1280px) {
-    .photo img {
-        margin: calc(5px + (40-5) * ((100vw - 320px) / (1280-320))) 0;
-    }
-    .side-block__content {
-        padding: 0 calc(5px + (40-5) * ((100vw - 320px) / (1280-320))) calc(5px + (40-5) * ((100vw - 320px) / (1280-320)));
-    }
-    .contacs__header,
-    .skills__header {
-        margin: calc(3px + (20-3) * ((100vw - 320px) / (1280-320))) 0;
-    }
-}
-
 .contacs__badge {
     margin-right: 10px;
     font-size: 14px;
@@ -102,6 +89,25 @@ body {
     background-color: #ffffff;
 }
 
+@media (max-width: 1280px) {
+    .photo img {
+        margin: calc(5px + (40-5) * ((100vw - 320px) / (1280-320))) 0;
+    }
+    .side-block__content {
+        padding: 0 calc(5px + (40-5) * ((100vw - 320px) / (1280-320))) calc(5px + (40-5) * ((100vw - 320px) / (1280-320)));
+    }
+    .contacs__header,
+    .skills__header {
+        margin: calc(3px + (20-3) * ((100vw - 320px) / (1280-320))) 0;
+    }
+    .main-block {
+        padding-top: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
+        padding-right: calc(90px + (190-90) * ((100vw - 320px) / (1280-320)));
+        padding-bottom: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
+        padding-left: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
+    }
+}
+
 .about__specialty {
     font-size: 14px;
     font-weight: 700;
@@ -109,7 +115,7 @@ body {
 }
 
 .about__my-name {
-    font-size: 45px;
+    font-size: 3.6vw;
     line-height: 89px;
     font-weight: 700;
 }
@@ -117,6 +123,7 @@ body {
 .about__about-me {
     margin-bottom: 60px;
     max-width: 415px;
+    min-width: 290px;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.03em;
