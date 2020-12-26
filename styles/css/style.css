@@ -12,7 +12,7 @@ body {
 .resume {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 3vw;
     background-color: #f5f7fa;
 }
 
@@ -105,7 +105,7 @@ body {
     margin-bottom: 4.2vw;
     max-width: 415px;
     min-width: 290px;
-    font-size: 14px;
+    font-size: 1.1vw;
     font-weight: 700;
     letter-spacing: 0.03em;
     color: #595959;
@@ -175,6 +175,48 @@ body {
 
 
 /* END MAIN BLOCK */
+
+@media (max-width: 425px) {
+    .resume__resume-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .side-block__content {
+        padding: 0 6vw 6vw;
+    }
+    .contacs__header,
+    .skills__header {
+        font-size: 5.2vw;
+    }
+    .contacs__badge,
+    .contacs__value a:link {
+        font-size: 3.50vw;
+    }
+    .skills__item {
+        font-size: 3.5vw;
+    }
+    .main-block {
+        max-width: 100%;
+    }
+    .about__specialty {
+        font-size: 3.3vw;
+    }
+    .about__my-name {
+        font-size: 5.2vw;
+        line-height: 13vw;
+    }
+    .about__about-me {
+        font-size: 3.3vw;
+    }
+    .projects__header {
+        font-size: 5.2vw;
+        line-height: 5.7vw;
+    }
+    .projects__item,
+    .projects__item::marker {
+        font-size: 3.3vw;
+    }
+}
 
 
 /* MEDIA FOR PRINT */
