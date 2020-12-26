@@ -83,13 +83,14 @@ body {
 /* START MAIN BLOCK */
 
 .main-block {
-    padding: 100px 190px 100px 90px;
+    padding: 7vw 10.5vw 7vw 6.3vw;
     width: 100%;
     color: #000000;
     background-color: #ffffff;
 }
 
-@media (max-width: 1280px) {
+
+/* @media (max-width: 1280px) {
     .photo img {
         margin: calc(5px + (40-5) * ((100vw - 320px) / (1280-320))) 0;
     }
@@ -100,28 +101,22 @@ body {
     .skills__header {
         margin: calc(3px + (20-3) * ((100vw - 320px) / (1280-320))) 0;
     }
-    .main-block {
-        padding-top: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
-        padding-right: calc(90px + (190-90) * ((100vw - 320px) / (1280-320)));
-        padding-bottom: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
-        padding-left: calc(40px + (100-40) * ((100vw - 320px) / (1280-320)));
-    }
-}
+} */
 
 .about__specialty {
-    font-size: 14px;
+    font-size: 1.1vw;
     font-weight: 700;
     letter-spacing: 0.03em;
 }
 
 .about__my-name {
-    font-size: 3.6vw;
-    line-height: 89px;
+    font-size: 4vw;
+    line-height: 7vw;
     font-weight: 700;
 }
 
 .about__about-me {
-    margin-bottom: 60px;
+    margin-bottom: 4.2vw;
     max-width: 415px;
     min-width: 290px;
     font-size: 14px;
@@ -131,26 +126,26 @@ body {
 }
 
 .projects__header {
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 700;
     line-height: 24px;
 }
 
 .projects__list {
-    margin-bottom: 50px;
+    margin-bottom: 3.5vw;
 }
 
 .projects__item {
-    margin-left: 20px;
+    margin-left: 1.9vw;
     list-style-type: decimal;
-    font-size: 14px;
+    font-size: 1.2vw;
     font-weight: 400;
     letter-spacing: 0.03em;
-    color: #595959;
+    color: #6e6e6e;
 }
 
 .projects__item::marker {
-    font-size: 14px;
+    font-size: 1.2vw;
     line-height: 24px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -159,7 +154,7 @@ body {
 
 .projects__item a {
     text-decoration: none;
-    color: #595959;
+    color: #6e6e6e;
 }
 
 .projects__item a:hover {
@@ -168,25 +163,25 @@ body {
 
 .work-experience__header,
 .block-education__header {
-    font-size: 22px;
+    font-size: 1.5vw;
     font-weight: 700;
 }
 
 .experience__header {
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 700;
     letter-spacing: 0.03em;
 }
 
 .experience__post {
-    font-size: 14px;
+    font-size: 1vw;
     font-weight: 400;
     letter-spacing: 0.03em;
     color: #595959;
 }
 
 .experience__time-period {
-    font-size: 12px;
+    font-size: 0.86vw;
     font-weight: 400;
     letter-spacing: 0.03em;
     color: #a8a8a8;
