@@ -212,7 +212,7 @@ body {
     .projects,
     .work-experience,
     .block-education {
-        padding: 20px;
+        padding: 0 20px;
     }
     .about__specialty,
     .about__about-me,
