@@ -176,7 +176,7 @@ body {
 
 /* END MAIN BLOCK */
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .resume {
         padding: 0;
     }
@@ -194,7 +194,9 @@ body {
     .contacs__header,
     .skills__header,
     .about__my-name,
-    .projects__header {
+    .projects__header,
+    .work-experience__header,
+    .block-education__header {
         font-size: 5.2vw;
     }
     .contacs__badge,
@@ -206,10 +208,17 @@ body {
         max-width: 100%;
         padding: 0;
     }
+    .about,
+    .projects,
+    .work-experience,
+    .block-education {
+        padding: 20px;
+    }
     .about__specialty,
     .about__about-me,
     .projects__item,
-    .projects__item::marker {
+    .projects__item::marker,
+    .experience__post {
         font-size: 3.3vw;
     }
     .about__my-name {
@@ -220,6 +229,12 @@ body {
     }
     .projects__header {
         line-height: 5.7vw;
+    }
+    .experience__header {
+        font-size: 3.8vw;
+    }
+    .experience__time-period {
+        font-size: 3vw;
     }
 }
 
