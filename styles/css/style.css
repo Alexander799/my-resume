@@ -176,6 +176,77 @@ body {
 
 /* END MAIN BLOCK */
 
+
+/* MEDIA FOR 768PX */
+
+@media (max-width: 768px) {
+    .resume {
+        padding: 5.3vw;
+    }
+    .resume__resume-body {
+        flex-direction: column;
+        align-items: center;
+    }
+    .side-block {
+        max-width: 100%;
+    }
+    .side-block__content {
+        padding: 0 5.3vw 5.3vw;
+    }
+    .contacs__header,
+    .skills__header,
+    .projects__header,
+    .work-experience__header,
+    .block-education__header {
+        font-size: 2.9vw;
+    }
+    .contacs__badge,
+    .contacs__value a:link,
+    .skills__item {
+        font-size: 2vw;
+    }
+    .main-block {
+        max-width: 100%;
+        padding: 0;
+    }
+    .about,
+    .projects,
+    .work-experience,
+    .block-education {
+        padding: 0 20px;
+    }
+    .about__specialty,
+    .about__about-me,
+    .projects__item,
+    .projects__item::marker,
+    .experience__post {
+        font-size: 2vw;
+    }
+    .about__my-name {
+        font-size: 5.9vw;
+        line-height: 11vw;
+    }
+    .about__about-me {
+        max-width: 100%;
+    }
+    .projects__header {
+        line-height: 5.7vw;
+    }
+    .experience__header {
+        font-size: 2.1vw;
+    }
+    .experience__time-period {
+        padding-bottom: 3vw;
+        font-size: 1.6vw;
+    }
+}
+
+
+/* MEDIA FOR 768PX */
+
+
+/* MEDIA FOR 425PX */
+
 @media (max-width: 425px) {
     .resume {
         padding: 0;
@@ -212,7 +283,7 @@ body {
     .projects,
     .work-experience,
     .block-education {
-        padding: 0 20px;
+        padding: 0 4.8vw;
     }
     .about__specialty,
     .about__about-me,
@@ -237,6 +308,9 @@ body {
         font-size: 3vw;
     }
 }
+
+
+/* MEDIA FOR 425PX */
 
 
 /* MEDIA FOR PRINT */
